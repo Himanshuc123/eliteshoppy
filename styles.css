@@ -1,0 +1,86 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background: Black;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header .test{
+    height: 50px;
+    width:16.33%;
+
+}
+.header .signin{
+    height: 50px;
+    width:16.33%;
+    color:white;
+    border-right : 1px solid lightgray;
+    
+}
+.header .signup{
+    height: 50px;
+    width:16.33%;
+    border-right: 1px solid lightgray;
+    color:white;
+
+}
+.header .call{
+    height: 50px;
+    width:16.33%;
+    color:white;
+    border-right : 1px solid lightgray;
+
+}
+.header .info{
+    height: 50px;
+    width:16.33%;
+    color:white;
+    border-right: 1px solid lightgray;
+
+}
+.header .black{
+    height: 50px;
+    width:16.33%;
+}   
+
+.subheader{
+
+    height:150px;
+    width:100%;
+    background:gray;
+    display: flex;
+    text-align: center;
+    line-height: 150px;
+}
+
+.subheader .search {
+     height: 150px;
+     width:33.33%;
+     background:lightblue;
+}
+
+.subheader .search .input{
+    height:50px;
+    width:70%; 
+    border:1px solid lightgray;
+}
+
+.subheader .logo{
+     height: 150px;;
+    width: 33.33%;
+    background:lightgray;
+}
+.subheader .social{
+     height: 150px;
+     width:33.33%;
+     background:orange;
+    
+}
